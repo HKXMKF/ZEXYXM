@@ -93,6 +93,7 @@ body{
 .Z_crbackground{
     width: 100%;
     height: 305px;
+    background: url("../images/Z_top_ds.jpg") repeat-x;
 
 }
 .Z_imgT{
@@ -904,4 +905,8 @@ body{
 }
 .Z_footer_hover5:hover{
     background: url("../images/Z_foot_contin55.jpg");
+}
+.Z_jstx_background{
+    width: 100%;
+    height: 1050px;
 }
