@@ -1,11 +1,11 @@
 body{
-    width: 1280px;
+    min-width: 1280px;
 }
 .Z_sred{
     color: red;
 }
 .Z_head{
-    width: 1280px;
+    width: 100%;
     height: 39px;
     font-size: 14px;
     border-bottom: 1px solid red;
@@ -91,8 +91,14 @@ body{
     color: white;
 }
 .Z_crbackground{
-    width: 1280px;
+    width: 100%;
     height: 305px;
+
+}
+.Z_imgT{
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
     position: relative;
 }
 .Z_crbackground_img{
@@ -134,7 +140,7 @@ body{
     color: red;
 }
 .Z_navigation{
-    width: 1280px;
+    width: 100%;
     height: 45px;
     background-color: #0e4da4;
     margin-top:-15px;
@@ -165,10 +171,14 @@ body{
     background-color: #ffcb33;
     color:#aa2b2b;
 }
+.Z_navigation_l2{
+    position: relative;
+}
 .Z_hide_u1{
     position: absolute;
-    _top: 390px;
-    _left: 197px;
+    top:45px;
+    left: 0;
+    _left:-40px;
     width:480px;
     height: 35px;
     padding: 0;
@@ -191,10 +201,14 @@ body{
 .Z_navigation_l2:hover .Z_hide_u1{
     display: block;
 }
+.Z_navigation_l3{
+    position: relative;
+}
 .Z_hide_u2{
     position: absolute;
-    _top: 390px;
-    _left: 297px;
+    top: 45px;
+    left: 0;
+    _left:-40px;
     width:480px;
     height: 35px;
     padding: 0;
@@ -217,12 +231,13 @@ body{
 .Z_navigation_l3:hover .Z_hide_u2{
     display: block;
 }
+.Z_navigation_l5{
+    position: relative;
+}
 .Z_hide_u3{
     position: absolute;
-    left:250px;
-    _top: 390px;
-    _left:220px;
-
+    top: 45px;
+    left:-250px;
     width:840px;
     height: 35px;
     padding: 0;
@@ -245,10 +260,14 @@ body{
 .Z_navigation_l5:hover .Z_hide_u3{
     display: block;
 }
+.Z_navigation_l6{
+    position: relative;
+}
 .Z_hide_u4{
     position: absolute;
-    _top: 390px;
-    _left: 600px;
+    top: 45px;
+    left: 0;
+    _left:-40px;
     width:240px;
     height: 35px;
     padding: 0;
@@ -271,10 +290,14 @@ body{
 .Z_navigation_l6:hover .Z_hide_u4{
     display: block;
 }
+.Z_navigation_l7{
+    position: relative;
+}
 .Z_hide_u5{
     position: absolute;
-    _top: 390px;
-    _left: 697px;
+    top: 45px;
+    left: 0;
+    _left:-40px;
     width:240px;
     height: 35px;
     padding: 0;
@@ -297,11 +320,14 @@ body{
 .Z_navigation_l7:hover .Z_hide_u5{
     display: block;
 }
+.Z_navigation_l8{
+    position: relative;
+}
 .Z_hide_u6{
     position: absolute;
-    left: 730px;
-    _top: 390px;
-    _left: 680px;
+    top: 45px;
+    left: 0px;
+    _left:-40px;
     width:360px;
     height: 35px;
     padding: 0;
@@ -324,11 +350,14 @@ body{
 .Z_navigation_l8:hover .Z_hide_u6{
     display: block;
 }
+.Z_navigation_l0{
+    position: relative;
+}
 .Z_hide_u7{
     position: absolute;
-    left: 660px;
-    _top: 390px;
-    _left: 618px;
+    left: -380px;
+    top: 45px;
+    _left:-420px;
     width:480px;
     height: 35px;
     padding: 0;
@@ -795,4 +824,84 @@ body{
 .Z_last_bottom li{
     margin-top: 7px;
     margin-left: 10px;
+}
+.Z_footer{
+    width: 100%;
+    height: 335px;
+    margin-top: 10px;
+    background-color: #083588;
+}
+.Z_footer_contin{
+    width: 1000px;
+    height: 335px;
+    margin: 0 auto;
+    position: relative;
+}
+.Z_footer_contin img{
+    width: 100%;
+    height: 100%;
+}
+.Z_footer_hover{
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Z_footer_hover1{
+    width: 170px;
+    height: 55px;
+    margin-left: 28px;
+    _margin-left:20px;
+    margin-top: 20px;
+    background: url("../images/Z_foot_contin1.jpg");
+    float:left ;
+}
+.Z_footer_hover1:hover{
+    background: url("../images/Z_foot_contin11.jpg");
+}
+.Z_footer_hover2{
+     width: 166px;
+     height: 59px;
+     float: left;
+     margin-left: 60px;
+     margin-top: 16px;
+     background: url("../images/Z_foot_contin2.jpg");
+ }
+.Z_footer_hover2:hover{
+    background: url("../images/Z_foot_contin22.jpg");
+}
+.Z_footer_hover3{
+    width: 166px;
+    height: 59px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 16px;
+    background: url("../images/Z_foot_contin3.jpg");
+}
+.Z_footer_hover3:hover{
+    background: url("../images/Z_foot_contin33.jpg");
+}
+.Z_footer_hover4{
+    width: 166px;
+    height: 59px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 16px;
+    background: url("../images/Z_foot_contin4.jpg");
+}
+.Z_footer_hover4:hover{
+    background: url("../images/Z_foot_contin44.jpg");
+}
+.Z_footer_hover5{
+    width: 166px;
+    height: 59px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 16px;
+    background: url("../images/Z_foot_contin5.jpg");
+}
+.Z_footer_hover5:hover{
+    background: url("../images/Z_foot_contin55.jpg");
 }
