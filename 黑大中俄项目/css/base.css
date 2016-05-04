@@ -365,7 +365,6 @@ ul{
 }
 .W_first_tr:hover{
     background-color: #C5E8FF;
-
 }
 .W_second_tr:hover{
     background-color: #C5E8FF;
@@ -510,4 +509,8 @@ ul{
     position: absolute;
     left: 200px;
     top: 1000px;
+}
+.W_bottomborder:hover{
+    text-decoration: underline;
+    color: red;
 }
