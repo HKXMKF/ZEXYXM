@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "??????";
+    min-width: 1380px;
 }
 ul{
     list-style: none;
@@ -9,6 +10,7 @@ ul{
 .S_loginbar{
     background: url("../images/S_bg_top.jpg") repeat-x;
     width: 100%;
+    min-width: 1280px;
     height: 40px;
     border-bottom: 1px solid rgb(204,0,1);
     position: relative;
@@ -435,6 +437,7 @@ ul{
 .S_footer{
     position: relative;
     width: 100%;
+    min-width: 1280px;
     height: 329px;
     background: rgb(8,53,156);
 }
@@ -908,7 +911,7 @@ a:link{
     left: 0px;
     font-size: 14px;
     color: rgb(17,17,17);
-    font-family: "ËÎÌå";
+    font-family: "ï¿½ï¿½ï¿½ï¿½";
 }
 .S_esearch{
     position: absolute;
@@ -1198,7 +1201,7 @@ a:link{
     left: 0px;
     font-size: 14px;
     color: rgb(17,17,17);
-    font-family: "ËÎÌå";
+    font-family: "ï¿½ï¿½ï¿½ï¿½";
 }
 label{
     display: inline-block;
@@ -1302,5 +1305,5 @@ label{
     left: 0px;
     font-size: 14px;
     color: rgb(17,17,17);
-    font-family: "ËÎÌå";
+    font-family: "ï¿½ï¿½ï¿½ï¿½";
 }
