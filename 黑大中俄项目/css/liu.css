@@ -441,7 +441,8 @@
     table-layout: fixed;
     border-spacing:0px 0px;
     vertical-align: top;
-    border:1px solid #9ee1f8;
+    border-right:1px solid #9ee1f8;
+    border-bottom:1px solid #9ee1f8;
 }
 .L_main_eexpert2b table td:nth-child(odd){
     background: rgba(165, 235, 255, 0.21);
@@ -488,7 +489,8 @@
     table-layout: fixed;
     border-spacing:0px 0px;
     vertical-align: top;
-    border:1px solid #9ee1f8;
+    border-right:1px solid #9ee1f8;
+    border-bottom:1px solid #9ee1f8;
 }
 .L_main_eexpert3b1,.L_main_eexpert3b2,.L_main_eexpert3b3{
     background: rgba(165, 235, 255, 0.21);
@@ -538,7 +540,8 @@
     table-layout: fixed;
     border-spacing:0px 0px;
     vertical-align: top;
-    border:1px solid #9ee1f8;
+    border-right:1px solid #9ee1f8;
+    border-bottom:1px solid #9ee1f8;
 }
 .L_main_eexpert4b1,.L_main_eexpert4b2,.L_main_eexpert4b3{
     background: rgba(165, 235, 255, 0.21);
@@ -555,15 +558,14 @@
 
 .L_1Scientific_right{
     position: relative;
-    left:310px;
-
+    left:320px;
 }
 .L_1Scientific_right1{
     position:absolute;
-    width: 690px;
+    width: 680px;
     height: 50px;
     background: #e3e3e3;
-    margin-top: 5px;
+    margin-top: 1px;
 
 }
 .L_1Scientific_right1a{
@@ -578,52 +580,61 @@
     color:#575858;
     float:right ;
     margin: 10px 20px;
-
 }
 .L_1Scientific_right3 table{
     position:absolute;
-    top:100px;
+    top:110px;
     left:0px;
-    width: 690px;
+    width: 680px;
     height: 900px;
     border-spacing:0px 0px;
+    border-collapse: collapse;
 }
 .L_1Scientific_right3 table td{
     border: 1px solid  #9ee1f8;
     width: 126px;
     height: 30px;
 
+
 }
 .L_1Scientific_right3 table td:nth-child(odd){
-    background: rgba(137, 200, 220, 0.37);}
+    background: rgba(165, 235, 255, 0.21);
+    width:85px;
+    text-align:right ;
+    padding-top: 1px;}
 .L_1Scientific_right3a{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
     font-family: 微软雅黑;
 }
 .L_1Scientific_right2{
-    width: 690px;
+    font-family: 微软雅黑;
+    width: 680px;
+    height: 30px;
     position: absolute;
     top:70px;
-    font-size:20px;
+    font-size:17px;
     color: rgba(189, 44, 44, 0.88);
     font-weight: bolder;
     border-bottom: 2px solid rgba(189, 44, 44, 0.88);
 }
-.L_Scientific_right2a{
-    font-size: 14px;
+.L_1Scientific_right2a{
+    font-family: 宋体;
+    font-size: 15px;
     color: black;
     display:inline-block;
-    width: 100px;
+    width: 120px;
+    margin-left: 480px;
 }
 .L_2Scientific_right{
     position: relative;
-    left:310px;
+    left:315px;
+
 
 }
 .L_2Scientific_right1{
     position:absolute;
-    width: 690px;
+    width: 688px;
     height: 50px;
     background: #e3e3e3;
     margin-top: 5px;
@@ -645,11 +656,12 @@
 }
 .L_2Scientific_right3 table{
     position:absolute;
-    top:100px;
+    top:110px;
     left:0px;
     width: 690px;
-    height: 500px;
+    height: 360px;
     border-spacing:0px 0px;
+    border-collapse: collapse;
 }
 .L_2Scientific_right3 table td{
     border: 1px solid  #9ee1f8;
@@ -658,22 +670,33 @@
 
 }
 .L_2Scientific_right3 table td:nth-child(odd){
-    background: rgba(137, 200, 220, 0.37);}
+    background: rgba(165, 235, 255, 0.21);
+    width:80px;
+    text-align:right ;}
 .L_2Scientific_right3a{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
     font-family: 微软雅黑;
 }
 .L_2Scientific_right2{
+    font-family: 微软雅黑;
     width: 690px;
     position: absolute;
     top:70px;
-    font-size:20px;
+    font-size:18px;
     color: rgba(189, 44, 44, 0.88);
     font-weight: bolder;
     border-bottom: 2px solid rgba(189, 44, 44, 0.88);
 }
+.L_2Scientific_right2a{
+    display: inline-block;
+    width: 110px;
+    margin-left: 480px;
+    font-family:宋体;
+    color:black;
+    font-size: 15px;
 
+}
 .L_3Scientific_right{
     position: relative;
     left:310px;
@@ -709,6 +732,7 @@
     width: 670px;
     height: 260px;
     border-spacing:0px 0px;
+    border-collapse: collapse;
 }
 .L_3Scientific_right3 table td{
     border: 1px solid  #9ee1f8;
@@ -718,8 +742,8 @@
 }
 .L_3Scientific_right3 table td:nth-child(odd){
     background: rgba(165, 235, 255, 0.21);
-     width:80px;
-    text-align:right ;
+width:80px;
+text-align:right ;
 }
 .L_3Scientific_right3a{
     font-size: 18px;
@@ -757,7 +781,7 @@
     position:absolute;
     left: 10px;
     top:0px;
-  font-size: 18px;
+    font-size: 18px;
     width: 670px;
     height: 30px;
     color: rgba(204, 0, 0, 0.88);
@@ -768,7 +792,7 @@
 .L_33Scientific_right2a{
     display: inline-block;
     width: 110px;
-    margin-left: 420px;
+    margin-left: 400px;
     font-family:宋体;
     color:black;
     font-size: 15px;
@@ -781,6 +805,7 @@
     width: 670px;
     height: 190px;
     border-spacing:0px 0px;
+    border-collapse: collapse;
 }
 .L_33Scientific_right3 table td{
     border: 1px solid  #9ee1f8;
@@ -801,8 +826,8 @@
     width: 690px;
     position: absolute;
     top:70px;
-    font-size:20px;
-    color: rgba(189, 44, 44, 0.88);
+    font-size:18px;
+    color: rgba(204, 0, 0, 0.88);
     font-weight: bolder;
     border-bottom: 2px solid rgba(189, 44, 44, 0.88);
 }
@@ -810,20 +835,23 @@
     position: relative;
     top:0px;
     left:0px;
+    /*width: 1000px;*/
+    /*height: 350px;*/
+    /*border:1px solid #e6e6e6;*/
 }
 .L_4Scientific_right1{
     position:absolute;
-    width: 1002px;
+    width: 1000px;
     height: 50px;
     background: #e3e3e3;
-    margin-top: 5px;
-
+    margin-top: 1px;
 }
 .L_4Scientific_right1a{
     font-family: 微软雅黑;
     font-size: 24px;
     color: #aa2b2b;
-    margin:20px 0 0 20px;
+    margin:25px 0 0 20px;
+
 }
 .L_4Scientific_right1b{
     font-family:宋体;
@@ -831,15 +859,22 @@
     color:#575858;
     float:right ;
     margin: 10px 20px;
-
+}
+.L_4Scientific_right0{
+    position:absolute;
+    top:60px;
+    width: 930px;
+    height: 240px;
+    border:1px solid #e6e6e6;
 }
 .L_4Scientific_right3 table{
     position:absolute;
-    top:100px;
-    left:0px;
-    width: 1002px;
-    height: 300px;
+    top:60px;
+    left:20px;
+    width: 900px;
+    height: 160px;
     border-spacing:0px 0px;
+    border-collapse: collapse;
 }
 .L_4Scientific_right3 table td{
     border: 1px solid  #9ee1f8;
@@ -848,49 +883,51 @@
 
 }
 .L_4Scientific_right3 table td:nth-child(odd){
-    background: rgba(137, 200, 220, 0.37);}
+    background: rgba(165, 235, 255, 0.21);
+    width:130px;
+    text-align: right;}
 .L_4Scientific_right3a{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bolder;
-    font-family: 微软雅黑;
+    font-family: 宋体;
+    color: #000076;
 }
 .L_4Scientific_right2{
-    width:1002px;
+    font-family: 微软雅黑;
+    width:907px;
     position: absolute;
-    top:70px;
+    top:15px;
+    left:20px;
     font-size:20px;
     color: rgba(189, 44, 44, 0.88);
     font-weight: bolder;
     border-bottom: 2px solid rgba(189, 44, 44, 0.88);
 }
-
-
-
-
-
+.L_4Scientific_right2a{
+    font-size: 15px;
+    font-family:宋体;
+    display: inline-block;
+    width: 80px;
+    margin-left: 670px;
+    margin-bottom: 8px;
+}
 .L_44Scientific_right{
     position: relative;
-
-    top:400px;
-
+    top:320px;
+    border:1px solid #e6e6e6;
+    width: 930px;
+    height: 215px;
 }
-.L_44Scientific_right2{
-    position:absolute;
-    top:0px;
-    width: 1002px;
-    height: 50px;
 
-    margin-top: 5px;
-
-}
 
 .L_44Scientific_right3 table{
     position:absolute;
-    top:130px;
-    left:0px;
-    width: 1002px;
-    height: 300px;
+    top:50px;
+    left:20px;
+    width: 900px;
+    height: 150px;
     border-spacing:0px 0px;
+    border-collapse: collapse;
 }
 .L_44Scientific_right3 table td{
     border: 1px solid  #9ee1f8;
@@ -899,18 +936,33 @@
 
 }
 .L_44Scientific_right3 table td:nth-child(odd){
-    background: rgba(137, 200, 220, 0.37);}
+    background: rgba(165, 235, 255, 0.21);
+    width:130px;
+    text-align: right;}
 .L_44Scientific_right3a{
     font-size: 20px;
     font-weight: bolder;
     font-family: 微软雅黑;
 }
 .L_44Scientific_right2{
-    width: 1002px;
+    font-family: 微软雅黑;
+    width: 900px;
+    height: 30px;
     position: absolute;
-    top:70px;
-    font-size:20px;
+    top: 10px;
+    left: 20px;
+    font-size: 20px;
     color: rgba(189, 44, 44, 0.88);
     font-weight: bolder;
     border-bottom: 2px solid rgba(189, 44, 44, 0.88);
+    margin-top: 1px;
+}
+
+.L_44Scientific_right2a{
+    font-size: 15px;
+    font-family:宋体;
+    display: inline-block;
+    width: 80px;
+    margin-left: 670px;
+    margin-bottom: 8px;
 }
